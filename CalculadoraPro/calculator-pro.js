@@ -2,7 +2,7 @@ calculatorPro();
 
 function calculatorPro() {
   let newNumber;
-  let numberList = [];
+  const numberList = [];
 
   newNumber = prompt("Enter a number or press cancel to stop");
   do {
@@ -16,32 +16,32 @@ function calculatorPro() {
   } while (newNumber !== null);
 
   if (numberList.length === 1) {
-    let numberRoot = Math.sqrt(numberList[0]);
+    const numberRoot = Math.sqrt(numberList[0]);
     alert(
-      "The square root of " +
-        numberList[0] +
-        " is " +
+      `The square root of ${numberList[0]} is ${
         Math.round(numberRoot * 1000) / 1000
+      }`
     );
   } else {
-    var totalSum = numberList[0];
-    var totalRest = numberList[0];
-    var totalMult = numberList[0];
-    var totalDiv = numberList[0];
+    let totalSum = numberList[0];
+    let totalRest = numberList[0];
+    let totalMult = numberList[0];
+    let totalDiv = numberList[0];
     for (let i = 1; i < numberList.length; i++) {
       totalSum = Number(totalSum) + Number(numberList[i]);
       totalRest -= numberList[i];
       totalMult *= numberList[i];
       totalDiv /= numberList[i];
     }
-    alert("The result of the sum is: " + Math.round(totalSum * 1000) / 1000);
-    alert("The result of the rest is: " + Math.round(totalRest * 1000) / 1000);
+    alert(`The result of the sum is: ${Math.round(totalSum * 1000) / 1000}`);
+    alert(`The result of the rest is: ${Math.round(totalRest * 1000) / 1000}`);
     alert(
-      "The result of the multiplication is: " +
+      `The result of the multiplication is: ${
         Math.round(totalMult * 1000) / 1000
+      }`
     );
     alert(
-      "The result of the division is: " + Math.round(totalDiv * 1000) / 1000
+      `The result of the division is: ${Math.round(totalDiv * 1000) / 1000}`
     );
   }
 
