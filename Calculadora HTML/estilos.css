@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightblue;
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 75px);
+  grid-template-rows: 105px repeat(5, 60px);
+}
+
+.long-button {
+  grid-column: span 2;
+  margin: 0px;
+  border: 1px grey solid;
+  padding: 0;
+  font-size: 1.5em;
+  background-color: rgb(218, 214, 214);
+  color: black;
+}
+
+.long-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.long-button:active {
+  background-color: red;
+  color: white;
+}
+
+.screen {
+  grid-column: span 4;
+  padding: 16px;
+  background-color: rgb(0, 0, 20);
+  text-align: right;
+  color: white;
+}
+
+.numbers-screen{
+    padding: 15px;
+    font-size: 2em;
+    text-align:end;
+}
+
+.number {
+  margin: 0px;
+  border: 1px grey solid;
+  padding: 0;
+  font-size: 1.5em;
+  background-color: rgb(218, 214, 214);
+  color: black;
+}
+
+.number:hover {
+  background-color: black;
+  color: white;
+}
+
+.number:active {
+  background-color: red;
+  color: white;
+}
+
+.operator {
+  margin: 0px;
+  border: 1px grey solid;
+  padding: 1px black;
+  font-size: 2em;
+  background-color: orange;
+  color: white;
+}
+
+.operator:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.operator:active {
+  background-color: red;
+  color: white;
+}
