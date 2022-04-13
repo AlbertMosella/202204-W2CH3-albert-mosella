@@ -1,9 +1,3 @@
-/*No sabia hasta que punto debia llegar, si debia poder concatenar varias
-operaciones, dando prioridad a los operadores correspondientes. Asi que
-finalmente he hecho una calculadora simple, donde puedes introducir 2 valores
-y una vez obtienes el resultado, este se puede modificar, borrar parcial o totalmente
-o usar como primer valor para la siguiente operacion*/
-
 let result = "";
 let operator = false;
 let operation = "";
@@ -65,21 +59,13 @@ const showDisplay = (input) => {
   display.innerHTML = display.innerHTML.concat(input);
 };
 
-const sum = () => {
-  return x + y;
-};
+const sum = () => x + y;
 
-const substract = () => {
-  return x - y;
-};
+const substract = () => x - y;
 
-const multiplication = () => {
-  return x * y;
-};
+const multiplication = () => x * y;
 
-const division = () => {
-  return x / y;
-};
+const division = () => x / y;
 
 deleteAll = () => {
   result = "";
@@ -103,7 +89,6 @@ deleteParcial = () => {
     x = x.slice(0, -1);
     parcialDeleteDisplay();
   }
-  return;
 };
 
 const parcialDeleteDisplay = () => {
