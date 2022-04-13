@@ -1,0 +1,418 @@
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  background-color: lightskyblue;
+}
+
+.container {
+  margin: 0px 100px;
+}
+
+h1 {
+  color: #0f1c3f;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #0f1c3f;
+}
+
+p {
+  color: #0f1c3f;
+}
+
+.letter {
+  color: white;
+  background-color: #0040ff;
+  border: 0.1875em solid #0f1c3f;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  position: absolute;
+  left: calc(50% - 20px);
+  height: 2em;
+  width: 2em;
+  text-align: center;
+  margin-top: 23px;
+}
+
+.a {
+  transform: rotate(263deg) translateX(175px) rotate(-263deg);
+}
+.a-correct {
+  background-color: green;
+  transform: rotate(263deg) translateX(175px) rotate(-263deg);
+}
+.a-incorrect {
+  background-color: red;
+  transform: rotate(263deg) translateX(175px) rotate(-263deg);
+}
+.b {
+  transform: rotate(277deg) translateX(175px) rotate(-277deg);
+}
+.b-correct {
+  transform: rotate(277deg) translateX(175px) rotate(-277deg);
+  background-color: green;
+}
+.b-incorrect {
+  background-color: red;
+  transform: rotate(277deg) translateX(175px) rotate(-277deg);
+}
+.c {
+  transform: rotate(291deg) translateX(175px) rotate(-291deg);
+}
+.c-correct {
+  background-color: green;
+  transform: rotate(291deg) translateX(175px) rotate(-291deg);
+}
+.c-incorrect {
+  background-color: red;
+  transform: rotate(291deg) translateX(175px) rotate(-291deg);
+}
+.d {
+  transform: rotate(304deg) translateX(175px) rotate(-304deg);
+}
+.d-correct {
+  background-color: green;
+  transform: rotate(304deg) translateX(175px) rotate(-304deg);
+}
+.d-incorrect {
+  background-color: red;
+  transform: rotate(304deg) translateX(175px) rotate(-304deg);
+}
+.e {
+  transform: rotate(318deg) translateX(175px) rotate(-318deg);
+}
+.e-correct {
+  background-color: green;
+  transform: rotate(318deg) translateX(175px) rotate(-318deg);
+}
+.e-incorrect {
+  background-color: red;
+  transform: rotate(318deg) translateX(175px) rotate(-318deg);
+}
+.f {
+  transform: rotate(332deg) translateX(175px) rotate(-332deg);
+}
+.f-correct {
+  background-color: green;
+  transform: rotate(332deg) translateX(175px) rotate(-332deg);
+}
+.f-incorrect {
+  background-color: red;
+  transform: rotate(332deg) translateX(175px) rotate(-332deg);
+}
+.g {
+  transform: rotate(346deg) translateX(175px) rotate(-346deg);
+}
+.g-correct {
+  background-color: green;
+  transform: rotate(346deg) translateX(175px) rotate(-346deg);
+}
+.g-incorrect {
+  background-color: red;
+  transform: rotate(346deg) translateX(175px) rotate(-346deg);
+}
+
+.h {
+  transform: translateX(175px);
+}
+.h-correct {
+  background-color: green;
+  transform: translateX(175px);
+}
+.h-incorrect {
+  background-color: red;
+  transform: translateX(175px);
+}
+.i {
+  transform: rotate(13deg) translateX(175px) rotate(-13deg);
+}
+.i-correct {
+  background-color: green;
+  transform: rotate(13deg) translateX(175px) rotate(-13deg);
+}
+.i-incorrect {
+  background-color: red;
+  transform: rotate(13deg) translateX(175px) rotate(-13deg);
+}
+
+.j {
+  transform: rotate(26deg) translateX(175px) rotate(-26deg);
+}
+.j-correct {
+  background-color: green;
+  transform: rotate(26deg) translateX(175px) rotate(-26deg);
+}
+.j-incorrect {
+  background-color: red;
+  transform: rotate(26deg) translateX(175px) rotate(-26deg);
+}
+.k {
+  transform: rotate(39deg) translateX(175px) rotate(-39deg);
+}
+.k-correct {
+  background-color: green;
+  transform: rotate(39deg) translateX(175px) rotate(-39deg);
+}
+.k-incorrect {
+  background-color: red;
+  transform: rotate(39deg) translateX(175px) rotate(-39deg);
+}
+.l {
+  transform: rotate(52deg) translateX(175px) rotate(-52deg);
+}
+.l-correct {
+  background-color: green;
+  transform: rotate(52deg) translateX(175px) rotate(-52deg);
+}
+.l-incorrect {
+  background-color: red;
+  transform: rotate(52deg) translateX(175px) rotate(-52deg);
+}
+.m {
+  transform: rotate(65deg) translateX(175px) rotate(-65deg);
+}
+.m-correct {
+  background-color: green;
+  transform: rotate(65deg) translateX(175px) rotate(-65deg);
+}
+.m-incorrect {
+  background-color: red;
+  transform: rotate(65deg) translateX(175px) rotate(-65deg);
+}
+
+.n {
+  transform: rotate(78deg) translateX(175px) rotate(-78deg);
+}
+.n-correct {
+  background-color: green;
+  transform: rotate(78deg) translateX(175px) rotate(-78deg);
+}
+.n-incorrect {
+  background-color: red;
+  transform: rotate(78deg) translateX(175px) rotate(-78deg);
+}
+.ñ {
+  transform: rotate(91deg) translateX(175px) rotate(-91deg);
+}
+.ñ-correct {
+  background-color: green;
+  transform: rotate(91deg) translateX(175px) rotate(-91deg);
+}
+.ñ-incorrect {
+  background-color: red;
+  transform: rotate(91deg) translateX(175px) rotate(-91deg);
+}
+.o {
+  transform: rotate(104deg) translateX(175px) rotate(-104deg);
+}
+.o-correct {
+  background-color: green;
+  transform: rotate(104deg) translateX(175px) rotate(-104deg);
+}
+.o-incorrect {
+  background-color: red;
+  transform: rotate(104deg) translateX(175px) rotate(-104deg);
+}
+.p {
+  transform: rotate(117deg) translateX(175px) rotate(-117deg);
+}
+.p-correct {
+  background-color: green;
+  transform: rotate(117deg) translateX(175px) rotate(-117deg);
+}
+.p-incorrect {
+  background-color: red;
+  transform: rotate(117deg) translateX(175px) rotate(-117deg);
+}
+.q {
+  transform: rotate(130deg) translateX(175px) rotate(-130deg);
+}
+.q-correct {
+  background-color: green;
+  transform: rotate(130deg) translateX(175px) rotate(-130deg);
+}
+.q-incorrect {
+  background-color: red;
+  transform: rotate(130deg) translateX(175px) rotate(-130deg);
+}
+
+.r {
+  transform: rotate(143deg) translateX(175px) rotate(-143deg);
+}
+.r-correct {
+  background-color: green;
+  transform: rotate(143deg) translateX(175px) rotate(-143deg);
+}
+.r-incorrect {
+  background-color: red;
+  transform: rotate(143deg) translateX(175px) rotate(-143deg);
+}
+.s {
+  transform: rotate(156deg) translateX(175px) rotate(-156deg);
+}
+.s-correct {
+  background-color: green;
+  transform: rotate(156deg) translateX(175px) rotate(-156deg);
+}
+.s-incorrect {
+  background-color: red;
+  transform: rotate(156deg) translateX(175px) rotate(-156deg);
+}
+
+.t {
+  transform: rotate(169deg) translateX(175px) rotate(-169deg);
+}
+.t-correct {
+  background-color: green;
+  transform: rotate(169deg) translateX(175px) rotate(-169deg);
+}
+.t-incorrect {
+  background-color: red;
+  transform: rotate(169deg) translateX(175px) rotate(-169deg);
+}
+.u {
+  transform: rotate(182deg) translateX(175px) rotate(-182deg);
+}
+.u-correct {
+  background-color: green;
+  transform: rotate(182deg) translateX(175px) rotate(-182deg);
+}
+.u-incorrect {
+  background-color: red;
+  transform: rotate(182deg) translateX(175px) rotate(-182deg);
+}
+.v {
+  transform: rotate(195deg) translateX(175px) rotate(-195deg);
+}
+.v-correct {
+  background-color: green;
+  transform: rotate(195deg) translateX(175px) rotate(-195deg);
+}
+.v-incorrect {
+  background-color: red;
+  transform: rotate(195deg) translateX(175px) rotate(-195deg);
+}
+.w {
+  transform: rotate(208deg) translateX(175px) rotate(-208deg);
+}
+.w-correct {
+  background-color: green;
+  transform: rotate(208deg) translateX(175px) rotate(-208deg);
+}
+.w-incorrect {
+  background-color: red;
+  transform: rotate(208deg) translateX(175px) rotate(-208deg);
+}
+.x {
+  transform: rotate(221deg) translateX(175px) rotate(-221deg);
+}
+.x-correct {
+  background-color: green;
+  transform: rotate(221deg) translateX(175px) rotate(-221deg);
+}
+.x-incorrect {
+  background-color: red;
+  transform: rotate(221deg) translateX(175px) rotate(-221deg);
+}
+.y {
+  transform: rotate(235deg) translateX(175px) rotate(-235deg);
+}
+.y-correct {
+  background-color: green;
+  transform: rotate(235deg) translateX(175px) rotate(-235deg);
+}
+.y-incorrect {
+  background-color: red;
+  transform: rotate(235deg) translateX(175px) rotate(-235deg);
+}
+.z {
+  transform: rotate(249deg) translateX(175px) rotate(-249deg);
+}
+.z-correct {
+  background-color: green;
+  transform: rotate(249deg) translateX(175px) rotate(-249deg);
+}
+.z-incorrect {
+  background-color: red;
+  transform: rotate(249deg) translateX(175px) rotate(-249deg);
+}
+
+.display-information {
+  background-color: white;
+  height: 40px;
+  width: auto;
+  color: black;
+  border: 0.1875em solid #0f1c3f;
+  margin: 20px 0px;
+  padding: 5px;
+  text-align: center;
+}
+
+.display-questions {
+  background-color: white;
+  height: 75px;
+  width: auto;
+  color: black;
+  border: 0.1875em solid #0f1c3f;
+  margin: 20px 0px;
+  padding: 5px;
+  text-align: center;
+}
+
+.start {
+  display: block;
+  align-items: center;
+  border: 0.1875em solid #0f1c3f;
+  margin: 160px auto;
+  padding: 20px;
+  font-size: 1.25em;
+  background-color: #0040ff;
+  color: white;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+}
+
+.start:hover {
+  background-color: #002baa;
+}
+
+.start:active {
+  background-color: rgb(62, 146, 255);
+}
+
+.write-input {
+  display: block;
+  align-items: center;
+  margin: 10px auto;
+  padding: 5px;
+  justify-content: center;
+  text-align: center;
+}
+
+.input {
+  display: block;
+  align-items: center;
+  margin: 10px auto;
+  padding: 5px;
+  justify-content: center;
+  text-align: center;
+}
+
+.buttons {
+  border: 0.1875em solid #0f1c3f;
+  padding: 10px;
+  background-color: #0040ff;
+  color: white;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+}
+
+.buttons:hover {
+  background-color: #002baa;
+}
+
+.buttons:active {
+  background-color: rgb(62, 146, 255);
+}

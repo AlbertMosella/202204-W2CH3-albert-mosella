@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pasapalabra</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>¡Pasapalabra!</h1>
+      <div>
+        <h2 id="welcome">Hola invitado y bienvenido a Pasapalabra!</h2>
+        <p>
+          El juego consiste en acertar las veintisiete palabras, cada una de las
+          cuales se corresponde con una letra del rosco. Recibirás una pregunta
+          con la definicion de dicha palabra. Los aciertos se reflejarán en las
+          letras mediante el color verde, mientras que los fallos se mostrarán
+          en color rojo. Tras escribir tu respuesta puedes pdivsar "enter" o
+          hacer cdivck en "Ok" para enviar tu respuesta. Si pdivsas el boton
+          "Pasapalabra", saltarás a la siguente pregunta y dicha palabra quedará
+          pendiente para la siguiente vuelta. Si deseas terminar el juego puedes
+          pdivsar "Fin del Juego" en cualquier momento.
+        </p>
+      </div>
+      <div id="display-info" class="display-information"></div>
+      <div id="display-question" class="display-questions"></div>
+      <div>
+        <div class="letters">
+          <div id="A" class="a letter">A</div>
+          <div id="B" class="b letter">B</div>
+          <div id="C" class="c letter">C</div>
+          <div id="D" class="d letter">D</div>
+          <div id="E" class="e letter">E</div>
+          <div id="F" class="f letter">F</div>
+          <div id="G" class="g letter">G</div>
+          <div id="H" class="h letter">H</div>
+          <div id="I" class="i letter">I</div>
+          <div id="J" class="j letter">J</div>
+          <div id="K" class="k letter">K</div>
+          <div id="L" class="l letter">L</div>
+          <div id="M" class="m letter">M</div>
+          <div id="N" class="n letter">N</div>
+          <div id="Ñ" class="ñ letter">Ñ</div>
+          <div id="O" class="o letter">O</div>
+          <div id="P" class="p letter">P</div>
+          <div id="Q" class="q letter">Q</div>
+          <div id="R" class="r letter">R</div>
+          <div id="S" class="s letter">S</div>
+          <div id="T" class="t letter">T</div>
+          <div id="U" class="u letter">U</div>
+          <div id="V" class="v letter">V</div>
+          <div id="W" class="w letter">W</div>
+          <div id="X" class="x letter">X</div>
+          <div id="Y" class="y letter">Y</div>
+          <div id="Z" class="z letter">Z</div>
+        </div>
+        <div class="spinner">
+          
+        </div>
+        <button id="start-button" class="start">Empezar el juego!</button>
+      </div>
+      <div class="write-input">
+        <p>Escribe aqui tu respuesta:</p>
+        <input id="text-input" type="text" />
+      </div>
+      <div class="input">
+        <button class="buttons" id="ok-button">Ok</button>
+        <button class="buttons" id="pasapalabra-button">Pasapalabra</button>
+        <button class="buttons" id="end-button">Fin del Juego</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
